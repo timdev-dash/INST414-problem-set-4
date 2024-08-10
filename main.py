@@ -27,12 +27,16 @@ def main():
 
     ##  PART 3: BAR PLOTS AND HISTOGRAMS  ##
     # 1
+    part3.fta_barplot(pred_universe)
 
     # 2
+    part3.hued_barplot(pred_universe)
 
     # 3
+    part3.age_histogram(pred_universe)
 
     # 4
+    part3.spec_bin_histogram(pred_universe)
 
     ##  PART 4: CATEGORICAL PLOTS  ##
     # 1
