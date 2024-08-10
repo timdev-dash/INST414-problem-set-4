@@ -39,11 +39,16 @@ def main():
     part3.spec_bin_histogram(pred_universe)
 
     ##  PART 4: CATEGORICAL PLOTS  ##
+    felony_charge, pred_universe_felony = part1.felony_updates(pred_universe, arrest_events)
+
     # 1
-    
+    part4.charge_type_felre_catplot(pred_universe_felony)
+
     # 2
+    part4.charge_type_nonfelre_catplot(pred_universe_felony)
 
     # 3
+    part4.hued_charge_type_catplot(pred_universe_felony)
 
     ##  PART 5: SCATTERPLOTS  ##
     # 1

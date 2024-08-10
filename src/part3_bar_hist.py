@@ -34,7 +34,6 @@ def fta_barplot(pred_universe: pd):
 
     # Processes pred_universe to create data to chart fta column
     fta_counts: pd = pred_universe.groupby(['fta']).size().reset_index(name='count')
-    print(fta_counts)
 
     sns.barplot(data=fta_counts, 
                 x='fta',
