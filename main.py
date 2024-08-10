@@ -52,8 +52,9 @@ def main():
 
     ##  PART 5: SCATTERPLOTS  ##
     # 1
-    
+    part5.felony_nonfelony_scatterplot(pred_universe)
     # 2
+    part5.felony_rearrest_scatterplot(pred_universe)
 
 
 if __name__ == "__main__":
