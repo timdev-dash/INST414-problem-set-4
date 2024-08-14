@@ -15,6 +15,7 @@ def seaborn_settings():
     '''
     sns.set_theme()
     sns.set(rc={'figure.figsize':(6, 4)})
+    sns.set_palette(sns.color_palette("magma"))
 
 # 1. Using lmplot, create a scatter plot where the x-axis is the prediction for felony and the y-axis the is prediction for a nonfelony, and hue this by whether the current charge is a felony. 
 def felony_nonfelony_scatterplot(pred_universe: pd):

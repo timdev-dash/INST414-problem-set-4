@@ -15,6 +15,7 @@ def seaborn_settings():
     '''
     sns.set_theme()
     sns.set(rc={'figure.figsize':(6, 4)})
+    sns.set_palette(sns.color_palette("viridis"))
 
 ##  UPDATE `part1_etl.py`  ##
 # 1. The charge_no column in arrest events tells us the charge degree and offense category for each arrest charge. 

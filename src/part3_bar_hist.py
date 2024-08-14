@@ -15,6 +15,7 @@ def seaborn_settings():
     '''
     sns.set_theme()
     sns.set(rc={'figure.figsize':(6, 4)})
+    sns.set_palette(sns.color_palette("icefire"))
 
 # 1. Using the pre_universe data frame, create a bar plot for the fta column.
 def fta_barplot(pred_universe: pd):
